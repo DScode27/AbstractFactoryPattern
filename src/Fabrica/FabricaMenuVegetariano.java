@@ -1,13 +1,7 @@
 package Fabrica;
 
-import Interface.IBebida;
-import Interface.IEntrada;
-import Interface.IPostre;
-import Interface.IPrincipal;
-import Menu.Vegetariano.BebidaVegetariano;
-import Menu.Vegetariano.EntradaVegetariano;
-import Menu.Vegetariano.PostreVegetariano;
-import Menu.Vegetariano.PrincipalVegetariano;
+import Interface.*;
+import Menu.Vegetariano.*;
 
 public class FabricaMenuVegetariano implements IFabricaMenu{
     @Override

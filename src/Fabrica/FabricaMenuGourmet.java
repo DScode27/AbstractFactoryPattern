@@ -1,13 +1,7 @@
 package Fabrica;
 
-import Interface.IBebida;
-import Interface.IEntrada;
-import Interface.IPostre;
-import Interface.IPrincipal;
-import Menu.Gourmet.BebidaGourmet;
-import Menu.Gourmet.EntradaGourmet;
-import Menu.Gourmet.PostreGourmet;
-import Menu.Gourmet.PrincipalGourmet;
+import Interface.*;
+import Menu.Gourmet.*;
 
 public class FabricaMenuGourmet implements IFabricaMenu {
     @Override

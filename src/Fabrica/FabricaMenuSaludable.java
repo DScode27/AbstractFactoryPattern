@@ -1,13 +1,7 @@
 package Fabrica;
 
-import Interface.IBebida;
-import Interface.IEntrada;
-import Interface.IPostre;
-import Interface.IPrincipal;
-import Menu.Saludable.BebidaSaludable;
-import Menu.Saludable.EntradaSaludable;
-import Menu.Saludable.PostreSaludable;
-import Menu.Saludable.PrincipalSaludable;
+import Interface.*;
+import Menu.Saludable.*;
 
 public class FabricaMenuSaludable implements IFabricaMenu {
     @Override
